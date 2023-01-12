@@ -6,12 +6,16 @@ This is a widget to include a TextArea widget into Shuffleboard (from WPILib).
 
 ### Installing
 
-The best way to build and install this code is to follow the instructions in the 
+The hard way to build and install this code is to follow the instructions in the 
 [WPILib documentation](https://docs.wpilib.org/en/stable/docs/software/dashboards/shuffleboard/custom-widgets/creating-plugins.html#building-plugin) 
 on creating a Shuffleboard plugin. When you get to the point of placing the plugin, put 
 this code into the `example-plugins/textbox-widget` directory. Follow the instructions 
 about `settings.gradle` in the base Shuffleboard project you downloaded, and then skip to 
-"Deploying Plugin To Shuffleboard"
+"Deploying Plugin To Shuffleboard".
+
+The easy way is to download the latest release (if there's more than one), and place it 
+`~/Shuffleboard/plugins`. From there, everything should just work.
+
 
 ### Dependencies
 
