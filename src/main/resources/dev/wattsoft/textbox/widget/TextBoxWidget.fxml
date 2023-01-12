@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.geometry.Insets?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.wattsoft.textbox.widget.TextBoxWidget" fx:id="root">
+
+    <padding>
+        <!-- Keep a 4 pixel buffer around the widget to avoid it from feeling cramped -->
+        <Insets topRightBottomLeft="4"/>
+    </padding>
+
+    <TextArea fx:id="textbox"/>
+</StackPane>
